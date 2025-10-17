@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "M9+Bdd3CIAU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kid32\\Documents\\Project For Fun (not fun at all)\\DockerWebApp\\DockerWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kid32\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+  ],
+  "logs": []
+}
