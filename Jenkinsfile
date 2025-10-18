@@ -6,12 +6,13 @@ pipeline {
         IMAGE_NAME = "duynguyen406/dockerwebapp"
     }
 
-    stages {
-        stage('Checkout') {
+        stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/duynguyen406/DockerWebApp.git'
+                echo '📥 Pulling source code from GitHub...'
+                git branch: 'main', credentialsId: 'github-cred', url: 'https://github.com/duynguyen406/DockerWebApp.git'
             }
         }
+
 
         stage('Build Docker Image') {
             steps {
