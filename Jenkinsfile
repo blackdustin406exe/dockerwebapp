@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "blackdustin406exe/dockerwebapp"
+        IMAGE_NAME = "duynguyen406/dockerwebapp" 
         DOCKER_CREDENTIALS = credentials('dockerhub-cred')
     }
 
